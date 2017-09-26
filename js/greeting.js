@@ -16,13 +16,3 @@ if (hourNow > 18) {
 }
 document.write(greeting);
 
-var price;
-var quantity;
-var total;
-
-price = 5;
-quantity = 14;
-total = price * quantity;
-var el = document.getElementbyId('cost');
-el.textContent = '$' + total;
-
